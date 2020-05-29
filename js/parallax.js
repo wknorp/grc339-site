@@ -1,7 +1,7 @@
 $(window).scroll(function () {
     var wScroll = $(this).scrollTop();
   
-    $(".title").css({
+    $(".scrolltitle").css({
       transform: "translate(0px, " + wScroll / 1.5 + "%)"
     });
   
